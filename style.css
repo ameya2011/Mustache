@@ -1,0 +1,31 @@
+body {
+    background-size:cover;
+    }
+
+#heading{ 
+font-family: 'Shizuru', cursive;
+font-weight:bolder;
+text-shadow:2px 2px 3px rgb(192, 125, 177);
+font-size:70;
+}
+#take_Snapshot{
+font-family: 'Rock 3D', cursive;
+font-weight:bolder;
+font-size:27;   
+background-color:yellowgreen;
+}
+
+#take_Snapshot:hover{
+background-color:plum;
+}
+
+canvas{
+animation-name:border;
+animation-duration:4s;
+animation-iteration-count:infinite;
+}
+
+@keyframes border{
+from {box-shadow:10px 10px 70px rgb(88, 5, 75);}
+from {box-shadow:10px 10px 70px rgb(110, 3, 53);}
+}
